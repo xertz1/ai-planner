@@ -1,0 +1,85 @@
+.footer {
+    background-color: black;
+    padding: 2rem 1rem;
+    
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    text-align: left;
+    max-width: 900px;
+    margin: 0 auto;
+   
+
+}
+
+.em {
+    color: white;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+  
+ 
+.footer-section p {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+  
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.footer-section a:hover {
+    color :#999999;
+}
+
+.circle-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+    font-size: 1.2rem;
+}
+
+.email-button button {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.email-button button:hover {
+    background-color: #999999;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: white;
+    width: 100%;
+}
+
+.title {
+    color:white;
+}

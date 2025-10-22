@@ -1,0 +1,70 @@
+
+.settings-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.passwordChange-container h2,
+.emailChange-container h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 600;
+  text-align: left;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.reset-password,
+.reset-email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; 
+  margin-top: 10px;
+}
+
+
+.reset-password input,
+.reset-email input {
+  width: 80%; 
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: border-color 0.2s ease;
+}
+
+.reset-password input:focus,
+.reset-email input:focus {
+  border-color: b
+
+}
+
+.success-msg {
+  background-color: #e6ffed;
+  color: #2f855a;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.error-msg {
+  background-color: #ffe6e6;
+  color: #cc0000;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 14px;
+}

@@ -1,0 +1,14 @@
+.calendar-image {
+    width: 50px;
+    height: auto;
+}
+
+.header-area {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header {
+    padding: 1rem 2rem
+}

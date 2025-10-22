@@ -1,0 +1,56 @@
+.calendar-image {
+    width: 70px; 
+    height: auto;
+}
+
+.navbar-area {
+    display: flex;
+    align-items: center;
+    gap: 2rem; 
+    justify-content: space-between;
+}
+
+.navbar {
+    padding: 1.5rem 3rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 4rem; 
+    font-size: 1.2rem; 
+    transition: color 0.3s ease;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #999999;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-area h3 {
+    font-size: 1.6rem; 
+    margin: 0;
+}
+
+.signout-button {
+    all: unset;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+        
+}
